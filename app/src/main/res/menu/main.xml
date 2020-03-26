@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_test_one"
+        android:orderInCategory="100"
+        android:title="Mesh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test_two"
+        android:orderInCategory="100"
+        android:title="Events"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test_three"
+        android:orderInCategory="100"
+        android:title="Feed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test_four"
+        android:orderInCategory="100"
+        android:title="Favorites"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test_five"
+        android:orderInCategory="100"
+        android:title="Possible Action"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/the_house_icon"
+        android:orderInCategory="100"
+        android:title="The house icon"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_black_24dp"/>
+
+    <item
+        android:id="@+id/the_camera_icon"
+        android:orderInCategory="100"
+        android:title="The house icon"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_camera"/>
+
+    <item
+        android:id="@+id/the_share_icon"
+        android:orderInCategory="100"
+        android:title="The house icon"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_share"/>
+
+</menu>
